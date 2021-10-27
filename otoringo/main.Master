@@ -1,0 +1,246 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="otoringo.main" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <!-- Basic -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>OTORİNGO MASTER PAGE</title>
+
+	<meta name="keywords" content="HTML5 Template" />
+	<meta name="description" content="Porto - Responsive HTML5 Template">
+	<meta name="author" content="okler.net">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+	<!-- Web Fonts  -->
+	<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CPlayfair+Display:400,700,900&display=swap" rel="stylesheet" type="text/css">
+
+	<!-- Vendor CSS -->
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" href="vendor/animate/animate.compat.css">
+	<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+	<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+	
+	  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMVooGIQ2ErRQm2IuKf6ivQUNxuGKAxmU"></script>
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/theme-elements.css">
+	<link rel="stylesheet" href="css/theme-blog.css">
+	<link rel="stylesheet" href="css/theme-shop.css">
+
+	<!-- Demo CSS -->
+	<link rel="stylesheet" href="css/demos/demo-industry-factory.css">
+
+	<!-- Skin CSS -->
+	<link id="skinCSS" rel="stylesheet" href="css/skins/skin-industry-factory.css">
+
+	<!-- Theme Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!-- Head Libs -->
+	<script src="vendor/modernizr/modernizr.min.js"></script>
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server"> 
+		<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+			<div class="header-body header-body-bottom-border border-top-0">
+				<div class="header-top">
+					<div class="container">
+						<div class="header-row">
+							<div class="header-column justify-content-start">
+								<div class="header-row">
+									<ul class="list list-unstyled list-inline mb-0">
+										<a href="tel:0 850 840 06 55" target="_blank" rel="noopener nofollow" class="top-header-link"><i class="fas fa-phone fa-flip-horizontal"></i> 0 850 840 06 55</a>
+										&nbsp&nbsp
+										<a href="https://api.whatsapp.com/send?phone=905317351707&text=" target="_blank" rel="noopener nofollow" class="top-header-link"><i class="fab fa-whatsapp" style="font-weight: bold; font-size:17px "></i> +90 531 735 17 07</a>
+										&nbsp
+										<a href="mailto:info@otoringo.com"><i class="fa fa-envelope" aria-hidden="true" style="font-weight: bold; font-size:17px "></i><i class="fa fa-envelope-o"></i>  info@otoringo.com</a>
+									</ul>
+								</div>
+							</div>
+							<div class="header-column justify-content-end">
+								<div class="header-row">
+									<ul class="header-social-icons social-icons social-icons-clean d-none d-md-block">
+										<li class="social-icons-facebook"><a href="https://www.facebook.com/carringoservis/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+										<li class="social-icons-instagram"><a href="https://www.instagram.com/carringoservis/" target="_blank" title="İnstagram"><i class="fab fa-instagram"></i></a></li>
+										<li class="social-icons-linkedin"><a href="https://www.linkedin.com/company/carringoservis" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+										<li class="social-icons-youtube"><a href="https://www.youtube.com/channel/UCS3fK35OoUdxgBs73Y3h0bQ" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-container container">
+					<div class="header-row">
+						<div class="header-column">
+							<div class="header-row">
+								<div class="header-logo">
+									<a href="/Anasayfa">
+										<img src="images\backgrounds\otoringo.png" class="img-fluid" width="140" height="40" alt="" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="header-column justify-content-end">
+							<div class="header-row">
+								<div class="header-nav header-nav-links">
+									<div class="header-nav-main header-nav-main-text-capitalize header-nav-main-effect-2 header-nav-main-sub-effect-1">
+										<nav class="collapse">
+											<ul class="nav nav-pills" id="mainNav">
+												<li><a href="/Anasayfa" class="nav-link">ANASAYFA</a></li>
+												<li><a href="/Hakkimizda" class="nav-link">HAKKIMIZDA</a></li>
+												<li><a href="/Hizmetler" class="nav-link">HİZMETLERİMİZ</a></li>
+												<li><a href="/İletisim" class="nav-link">İLETİŞİM</a></li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+								<div class="header-nav-features">
+									<div class="header-nav-feature header-nav-features-search d-inline-flex">
+										<a href="#" class="header-nav-features-toggle text-decoration-none" data-focus="headerSearch">
+											<i class="icons icon-magnifier header-nav-top-icon font-weight-bold text-4 top-2 text-color-hover-primary"></i>
+										</a>
+										<div class="header-nav-features-dropdown header-nav-features-dropdown-mobile-fixed" id="headerTopSearchDropdown">
+											<form role="search" action="page-search-results.html" method="get">
+												<div class="simple-search input-group">
+													<input class="form-control text-1" id="headerSearch" name="q" type="search" value="" placeholder="Search...">
+													<button class="btn" type="submit">
+														<i class="icons icon-magnifier header-nav-top-icon font-weight-bold text-color-dark text-4 text-color-hover-primary top-2"></i>
+													</button>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+								<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
+									<i class="fas fa-bars"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+		<footer id="footer" class="section section-with-shape-divider border-0 custom-bg-lighten-grey-1 pt-5 pb-0 m-0">
+			<div class="shape-divider shape-divider-reverse-x" style="height: 120px;">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2000 120" preserveAspectRatio="xMinYMin">
+					<polygon fill="#FFF" points="-11,2 693,112 2019,6 2019,135 -11,135 " />
+				</svg>
+			</div>
+			<div class="container pt-lg-5 mt-5">
+				<div class="row">
+					<div class="col-lg-3 mb-5 mb-lg-0">
+						<a href="/Anasayfa">
+							<img src="images\backgrounds\otoringo_logo.png" class="img-fluid" width="140" height="40" alt="" />
+						</a>
+						<h4 class="text-color-light font-weght-bold positive-ls-2 custom-font-size-2">BİZİ TAKİP EDİN</h4>
+						<ul class="social-icons social-icons-medium">
+							<li class="social-icons-facebook"><a href="https://www.facebook.com/carringoservis/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+							<li class="social-icons-instagram"><a href="https://www.instagram.com/carringoservis/" target="_blank" title="İnstagram"><i class="fab fa-instagram"></i></a></li>
+							<li class="social-icons-linkedin"><a href="https://www.linkedin.com/company/carringoservis" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+							<li class="social-icons-youtube"><a href="https://www.youtube.com/channel/UCS3fK35OoUdxgBs73Y3h0bQ" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 offset-lg-1 mb-5 mb-lg-0">
+						<h4 class="text-color-light font-weght-bold positive-ls-2 custom-font-size-2">OFİSLERİMİZ</h4>
+						<div class="row">
+							<div class="col-md-7">
+								<address>
+									<ul>
+										<li>
+											<u>
+												Ankara Merkez Ofisi<br>
+											</u>
+											Via Twins Eskişehir yolu Söğütözü mh. <br>
+											2177 sk. No:10/b blok no:64 <br>
+											Çankaya/Ankara<br>
+										</li>
+									</ul>
+								</address>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 offset-lg-1 mb-5 mb-lg-0">
+						<h4 class="text-color-light font-weght-bold positive-ls-2 custom-font-size-2">OTORİNGO</h4>
+						<div class="row">
+							<div class="col-md-6">
+								<ul class="list list-unstyled mb-0">
+									<li class="mb-0"><a href="/Anasayfa">Anasayfa</a></li>
+									<li class="mb-0"><a href="/Hakkimizda">Hakkımızda</a></li>
+									<li class="mb-0"><a href="/Hizmetler">Hizmetlerimiz</a></li>
+									<li class="mb-0"><a href="/İletisim">İletişim</a></li>
+								</ul>
+							</div>
+						</div>
+						<h4 class="text-color-light font-weght-bold positive-ls-2 custom-font-size-2">ÇALIŞMA SAATLERİ</h4>
+						<ul class="list list-unstyled list-inline custom-list-style-1 mb-0">
+							<li><a href="/İletisim">Pazartesi-Cuma : 08:30 - 18:00</a></li>
+							<li><a href="/İletisim">Cumartesi : 09:00 - 16:00</a></li>
+						</ul>
+					</div>
+					<div class="footer-copyright custom-bg-lighten-grey-1 mt-5 pb-5">
+						<div class="container custom-footer-top-light-border pt-4">
+							<div class="row">
+								<div class="col">
+									<p class="text-center text-3 mb-0">© 2021 | <a rel="noopener noreferrer" href="https://teksenbilisim.com" target="_blank">Tekşen Bilişim</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+		</footer>
+
+			<!-- Vendor -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+	<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+	<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="vendor/jquery.validation/jquery.validate.min.js"></script>
+	<script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+	<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+	<script src="vendor/lazysizes/lazysizes.min.js"></script>
+	<script src="vendor/isotope/jquery.isotope.min.js"></script>
+	<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+	<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="vendor/vide/jquery.vide.min.js"></script>
+	<script src="vendor/vivus/vivus.min.js"></script>
+
+
+	<!-- Theme Base, Components and Settings -->
+			<script src="js/theme.js"></script>
+		
+
+	<!-- Current Page Vendor and Views -->
+	<script src="js/views/view.contact.js"></script>
+
+	<!-- Demo -->
+	<script src="js/demos/demo-industry-factory.js"></script>
+
+	<!-- Theme Custom -->
+	<script src="js/custom.js"></script>
+
+	<!-- Theme Initialization Files -->
+	<script src="js/theme.init.js"></script>
+
+		    </form>
+</body>
+</html>
